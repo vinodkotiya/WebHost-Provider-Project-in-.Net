@@ -1,0 +1,1665 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<meta name="Keywords" content="Tutorials, guides, java, programming, C, C++, how-to, howtos,vinod, asp, bhopal, projects, india, GATE, gate,information, kotiya, object, method, oops, source, code, html,java, php, xml, xhtml, dhtml, web, assembly, vinsoft, virus,intel, 80x86, serial, USB, crypting, encryption, setup, wizard, exe,program, digital, the one, lossless, quantization, quantisation, bit, coding, code, C#, IP, TCp, USB, Serial, Stream, Allegro, DirectX, Game, Source, game source, sprites, game making, gaming, games, algorithms,image, video, projects, pictures, object, analyse, 3D, rotation, matrix, camera, view, projection, file, sorting, quick sort,heap,knapsack,dhun,vincanoid,vin maze,hotel,bank,shop,management,railway,indian">
+<TITLE>VINSOFT : Vinod Kotiya</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="text/html; charset=ISO-2022-JP" name=Content-Type>
+<META 
+content="VINSOFT vinod kotiya : free projects on programming topics (C,C++,html,Java,asp...), All my projects, tutorials." 
+name=Description>
+<META content="vinod kotiya" name=Author>
+<META content=http://vinodkotiya.tripod.com name=Identifier-URL>
+<META content=20030707 name=Date-Creation-yyyymmdd>
+<META content=vinodkotiya@yahoo.co.in name=Reply-to>
+<META content="7 days" name=revisit-after>
+<META content=Programming name=Category>
+<META content=free.fr name=Publisher>
+<META content="VINSOFT INDIA" name=Copyright>
+<META content="index, follow" name=robots><LINK 
+href="http://vinodkotiya.tripod.com/images/vin.ico" rel="SHORTCUT ICON">
+<SCRIPT language=JavaScript type=text/javascript >
+var out = " ";
+var deb = 0;
+var fin = 0;
+var out="";
+var max=0;
+var x=0;
+
+function textlist() {
+max=textlist.arguments.length;
+for (i=0; i<max; i++)
+this[i]=textlist.arguments[i];
+x = 0;
+}
+
+
+var txtl = new textlist("Get Free Source Code , Softwares and Games..","I can tell that you want me.    :-)"," Yes, I want you to leave.","I Need Some Help provide me more webspace.....vinod","does that really say 'beat detection'?  rawr!  I know i will like it here...","dsfdsfsfs","i am chung from vietnam","Hey all peeps from New Zealand","can you tell me how to write in harddisk through c programming ....Peter","Hi !! I need good resources on VB API programming !! thanks !!","How are you?.....Nishi,Bhopal","open source code","hi i am from US i want to know how to copy files in DOS ......Maria","patrick philip rodriguez sanchez will marry sheila marie imasa","What is THE ONE...The Pandey","hello there from asia","hay i serch about books OOPS","asfa sfsaf asfsfsafasf sfasf","Need yr help to promote this site .....vin","Author : Vinod Kotiya","email: vinodkotiya@yahoo.com  cell:+91-9827394994","Welcome to http://vinodkotiya.tripod.com","Please send your articles , jokes , comments by mail..","your idea will be published on this site","is there any project in c++ ...Twai","I want to publish my source code in your site ...Mark","Ideal Resolution 1024X768 to view this site","I'd go through anything for you.:-)"," Let's start with your bank account.","Haven't I seen you someplace before?   :-)   ","   Yeah, that's why I don't go there anymore.","WEB COMPILER:Select the santance and click any menu,coding will be done automatically","I want to give myself to you.   :-)"," Sorry, I don't accept cheap gifts."," I would go to the end of the world for you.  :-)"," Yes, but would you stay there?   ");
+var txt;
+
+function scroll_text() {
+txt = txtl[x];//if(fin > txt.length) { deb=0; fin=0; }
+out = txt.substring(deb,fin)
+if(fin == txt.length) { to=1500; x++; deb=0; fin=0; } else { to=70; out = out + "_"; }
+if(x>=max) { x=0; }
+document.defil.msg.value = out;
+fin++;
+setTimeout('scroll_text(txt)',to)
+}
+</SCRIPT>
+<STYLE type=text/css>A:link {
+	COLOR: #cc33cc; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #cc33cc; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #33ccff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #33ccff; TEXT-DECORATION: underline
+}
+</STYLE>
+
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<meta name="ProgId" content="FrontPage.Editor.Document">
+</HEAD>
+<BODY aLink=white bgColor=#000000 leftMargin=0 link=#33ccff vlink=white 
+onload=scroll_text(); 
+style="BACKGROUND-ATTACHMENT: fixed; BACKGROUND-REPEAT: no-repeat; scrollbar-highlight-color: #6c7ceb; scrollbar-3dlight-color: #000000; scrollbar-darkshadow-color: #000000; scrollbar-shadow-color: #6c7ceb; scrollbar-arrow-color: #6c7ceb; scrollbar-face-color: #000000; scrollbar-track-color: #000000" 
+text=#6c7ceb topMargin=0 marginheight="0" marginwidth="0"><A 
+name=top></A>
+<CENTER>
+<CENTER>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD height=3 width=990></TD></TR></TBODY></TABLE>
+<div align="center">
+  <center>
+<TABLE border=0 cellPadding=0 cellSpacing=0 
+style="border:2px solid #6c7ceb; border-collapse:collapse" 
+width="100%" valign="top">
+  <TBODY>
+  <tr>
+    <TD align=middle height=112 vAlign=center width=363 border="0" colspan="2">
+      <TABLE width="363">
+        <TBODY>
+        </TD></TBODY></TABLE>
+      <font color="#FFFF00"><span style="background-color: #000000">
+      <a title="VINSOFT" href="aboutme.html">
+      <img border="0" src="images/vis.gif" width="356" height="100"></a></span></font></TD>
+    <TD align=middle height=112 vAlign=top width=529 border="0">
+    <p align="left">
+    <font color="#FFFF00" size="2"><a href="aboutme.html">
+    <font color="#FFFF00"><u>Vinod Kotiya</u></font></a></font><font size="2"><a href="aboutme.html"><font color="#FFFF00"><u>
+    </u>
+    </font></a><br>
+    <font color="#33CCFF">B.E.4th Year(Information Technology)</font></font><B><FONT 
+                  color=#6c7ceb face="arial" style="FONT-SIZE: 22px"><img border="0" src="images/ving.gif" align="right" width="32" height="32"></FONT></B><font size="2"><font color="#33CCFF"><br>
+    U.I.T. RGPV,Bhopal</font><br>
+    </font><font color="#00FFFF"><big><font size="2">Add:- S-2 ShriMaya 
+    Apartment,</font></big><font size="2"> </font><big><font size="2">Sector- 
+    B/363,Sarvdharm&nbsp; Colony,Bhopal-42.INDIA</font></big><font size="2">
+    </font><big><font size="2"><br>Cell:-+91-</font></big></font><big><font color="#00FFFF" size="2">9827394994</font></big><font size="2" color="#00FFFF">
+    <br>
+    </font><big><font size="2"><font color="#FFFFFF">Email:</font><font color="#00FFFF"><font color="#FFFFFF">
+    </font><a href="mailto:vinodkotiya@yahoo.co.in"><font color="#FFFFFF">vinodkotiya@yahoo.com</font></a></font></font></big>
+    <br>
+    </font><font color="#00FF00"><marquee scrolldelay="146">Site Launched : 07-July-2003. Lets Make the World of Free Source Code. Hey Open Source ppl any mistakes, any additions, any idea , any suggestions, any comments, any 
+(*&amp;@(*&amp;#*#!^), or any other kind of information to be passed on, please 
+feel free to send in your mail, please include any of the following words in the 
+mail subject - QUESTION:, ANSWER:, PRAISE:, COMMENT:, SUGGESTION:, MISTAKE:, 
+INFO:, INFORMATION:, MISC: - followed by the actual subject</marquee></font></TD>
+  </tr>
+  <TR>
+    <TD align=center height=1 
+    style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid" 
+    vAlign=top width=212>
+      <TABLE cellPadding=0 cellSpacing=0 valign="top" width="164">
+        <TBODY>
+        <TR>
+          <TD align=left vAlign=center width="1"></TD>
+          </TR></TBODY></TABLE></TD>
+    <TD align=center height=1 
+    style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid" 
+    vAlign=top width=149></TD>
+    <TD align=center height=1 
+    style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid" 
+    vAlign=top width=529></TD></TR></TBODY></TABLE>
+  </center>
+</div>
+</CENTER></CENTER>
+
+              <div align="center">
+                <center>
+                <table border="2" cellspacing="1" style="border-collapse: collapse" width="101%" id="AutoNumber2" bordercolorlight="#808000" bgcolor="#000080" height="24">
+                  <tr>
+                    <td width="33%" height="21">
+                    <p align="left">
+                    <font size="4" color="#00FF00">
+                    <marquee scrolldelay="150" width="289">Please note that i have not a lot of space in this site to provide you the 
+source code.Even i am unable to provide my games executable (more than 5 to 20 MB)  due to bandwidth problem.So do contact me offline at vinodkotiya@yahoo.com by mail. I will 
+send the source code. Till enjoy some of these free source code. If you know any webhost who provide free web space then please inform me.</marquee></font><font color="#FF0000">
+                    </marquee></font></td>
+                    <td width="67%" height="21">
+                    <p align="center"><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"><a href="source.html"><font color="#00BFFF"><u>
+                    Source Code</u></font></a> </FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#FF0000 face="arial" 
+      style="FONT-SIZE: 13px"> </FONT>
+    <FONT face="arial" 
+      style="FONT-SIZE: 13px"><a href="stand.html"><font color="#00BFFF"><u>My 
+                    Projects</u></font></a></FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> </FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> <a href="gate.html"><font color="#00BFFF"><u>GATE</u></font></a> </FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> <a href="fun.html"><font color="#00BFFF"><u>FUN
+                    </u></font></a></FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> <font color="#00BFFF"><a href="tutors.html"><u>
+                    <font color="#33CCFF">Tutorials</font></u></a></font> </FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> <a href="games.html"><u>
+                    <font color="#00BFFF">Games</font></u></a><font color="#00BFFF">
+                    </font></FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">| </FONT>
+                  <FONT color=#FFFF00 face=verdana 
+                  size=2 style="font-size: 13px"><u>
+                <a href="jobs.html"><font color="#33CCFF"><u>Careers</u></font></a></u></FONT></td>
+                    </tr>
+                  </table>
+                </center>
+                </div>
+<CENTER>
+<CENTER>
+<TABLE align=left border=0 cellPadding=0 cellSpacing=0 width=724>
+  <TBODY>
+  <TR>
+    <TD align=middle vAlign=top width=159 border="0">
+      <TABLE align=left border=2 cellPadding=0 cellSpacing=0 width=1 
+      valign="top" style="border-collapse: collapse">
+        <TBODY>
+        <tr>
+          <B>
+                <TD bgColor=#0000ee width="224">&nbsp;<FONT color=#FFFF00 face=verdana 
+                  size=2><B><font color="#FFFF00"><a href="index.html"><u><font color="#FFFF00">Home&nbsp;
+                </font>
+                </u></a></font></B></FONT></TD></B>
+        </tr>
+        <tr>
+                <TD  width="224">
+                <font size="2" color="#00BFFF">&nbsp;&nbsp; </font>
+                <a href="aboutme.html"><u><font size="2" color="#00BFFF">About 
+                Me</font></u></a><font size="2"><a href="aboutme.html"><font color="#00BFFF"><u>
+    </u>
+    </font></a>
+    </font></TD>
+        </tr>
+        <tr>
+          <B>
+                <TD  width="224">
+                <FONT color=#00bfff face="Arial" size="1">[ 
+      </FONT>
+                <FONT 
+      color=#00BFFF face="Arial" size="1">http://vinodkotiya.tripod.com</FONT><FONT 
+      color=#6c7ceb face="Arial" size="1"><FONT color=#00bfff> ]</FONT></B>
+      </FONT></TD></B>
+        </tr>
+        <tr>
+          <B>
+                <TD bgColor=#0000ee width="224"><font color="#FFFF00">
+                <font face="verdana" size="2">&nbsp; </font>
+                <a href="games.html"><u>
+                <font color="#FFFF00" face="verdana" size="2">GAMES</font></u></a></font></TD></B>
+        </tr>
+        <tr>
+                <TD width="224">
+          <font size="2" color="#00FF00">The Final Quest</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+          <font size="2" color="#00FF00">Space Invader</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">AirForce</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">Just Race</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">Binary Land</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">Baaz Invader</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">VINTRAP</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">VINCANOID 
+                Reloaded</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">Mind Scanner</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">Battle Tank</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">And Many More 
+                Games...</font></TD>
+        </tr>
+        <tr>
+          <B>
+                <TD bgColor=#0000ee width="224"><font color="#FFFF00">&nbsp;</font><font face="verdana" size="2" color="#FFFF00"><a href="stand.html"><font color="#FFFF00"><u>Softwares</u></font></a></font></TD></B>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#33CCFF">VIN Setup Wizard</a></font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#33CCFF">VIN Cryptograph 
+                v2.0</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">VIN Instant Messanger</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">VIN ALL2HTML Converter</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">VIN JavaScript Generator</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">VIN Convert Center</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">VIN INDRADHANUSH</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">VIN Talking Clock</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">DHUN</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">Have A Break</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">VIN Easy Auto Run Creator</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">VIN Remind Me Later</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">VIN Web Compiler</font></TD>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font size="2" color="#33CCFF">AND Many More...</font></TD>
+        </tr>
+        <tr>
+          <B>
+                <TD bgColor=#0000ee width="224"><font color="#FFFF00">&nbsp;</font><FONT color=#FFFF00 face=verdana 
+                  size=2><B><a href="source.html"><font color="#FFFF00"><u>Source Codes Library</u></font></a></B></FONT></TD></B>
+        </tr>
+        <tr>
+                <TD width="224">
+                <font color="#00FF00" size="2">ASP 
+                  Source Codes</A></font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font color="#00FF00" size="2">C/C++ 
+                  Source Codes</A></font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font color="#00FF00" size="2">COBOL 
+                  Source Codes</A></font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font color="#00FF00" size="2">Java 
+                  Source Codes</A></font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font color="#00FF00" size="2">Pascal 
+                  Source Codes</A></font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font color="#00FF00" size="2">More Source Codes</A>..</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font color="#00FF00" size="2">Submit 
+                  Source Codes</A></font></TD>
+        </tr>
+        <tr>
+          <B>
+                <TD bgColor=#0000ee width="224"><font color="#FFFF00">&nbsp;</font><FONT color=#FFFF00 face=verdana 
+                  size=2><B><a href="gate.html"><font color="#FFFF00"><u>GATE
+                </u></font></a> </B></FONT></TD></B>
+        </tr>
+        <tr>
+                <TD width="224"><font color="#33CCFF" size="2">GATE Articles</a></font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font color="#33CCFF" size="2">
+                Recommended 
+                Books</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font color="#33CCFF" size="2">GATE Syllabus</a></font></TD>
+        </tr>
+        <tr>
+          <B>
+                <TD bgColor=#0000ee width="224"><font color="#FFFF00">&nbsp;</font><a href="tutors.html"><font face="verdana" size="2" color="#FFFF00"><u>TUTORIALS</u></font></a></TD></B>
+        </tr>
+        <tr>
+                <TD width="224">
+          <font size="2" color="#00FF00">C++</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">DOS Tutor</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">HTML</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">VB </font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">JAVA</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FF00">AND Many More 
+                Tutors....</font></TD>
+        </tr>
+        <tr>
+          <B>
+                <TD bgColor=#0000ee width="224"><FONT color=#FFFF00 face=verdana 
+                  size=2><B><font color="#FFFF00">&nbsp; </font><u>
+                <a href="jobs.html"><font color="#FFFF00"><u>Jobs &amp; Careers</u></font></a></u></B></FONT></TD></B>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FFFF">Interviews</font></TD>
+        </tr>
+        <tr>
+                <TD width="224"><font size="2" color="#00FFFF">Placement 
+                  Papers</A></font></TD>
+        </tr>
+        <tr>
+          <B>
+                <TD bgColor=#0000ee width="224"><font color="#FFFF00">&nbsp;</font><FONT color=#FFFF00 face=verdana 
+                  size=2><B><a href="fun.html"><font color="#FFFF00"><u>Fun (User Section)</u></font></a></B></FONT></TD></B>
+        </tr>
+        <tr>
+                <TD width="224">Send Feedback</TD>
+        </tr>
+        <tr>
+          <B>
+                <TD width="224">Send </TD></B>
+        </tr>
+        <TR>
+          <TD align=left vAlign=top width=150>
+            <TABLE border=0 cellPadding=0 cellSpacing=0 
+            style="border:2px solid #0000FF; border-collapse:collapse" width="151">
+              <TBODY>
+              <TR>
+                <TD bgColor=#220044 height=20 width=336><B>
+                <FONT color=#FFFF00 
+                  face="arial" style="FONT-SIZE: 11px">
+                  <CENTER>.:: I want YOUR opinion ::.</CENTER></FONT></B></TD></TR>
+              <TR>
+                <TD bgColor=#FFFFFF width=262 bordercolorlight="#FFFF00" bordercolordark="#FF0000">
+                <font size="2" color="#FF0000">A 
+                        section where people can post programming ideas, how 
+                        they started their project and what algorithms they 
+                        used. This could be very helpful to others looking for 
+                        inspiration! </A>
+                A 
+                        list of Programming Libraries and Programming 
+                        Environments docs sorted into categories. Your jokes , 
+                Articles or any other Creative idea will be placed here or 
+                Something else. Send your information by email to </font><font size="2" color="#00BFFF">
+                <a href="mailto:vinodkotiya@yahoo.com"><font color="#FF0000">vinodkotiya@yahoo.com</font></a></font><font size="2" color="#FF0000"> 
+                for publishing</font></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD align=left vAlign=top width=150>
+            <TABLE border=0 cellPadding=0 cellSpacing=0 
+            style="BORDER-BOTTOM: #6c7ceb 2px solid; BORDER-LEFT: #6c7ceb 2px solid; BORDER-RIGHT: #6c7ceb 2px solid; BORDER-TOP: #6c7ceb 2px solid" width="150">
+              <TBODY>
+              <TR>
+                <TD bgColor=#220044 height=20 width=72><B>
+                <FONT color=#FFFF00 
+                  face="arial" style="FONT-SIZE: 11px">
+                  <p align="left">.:: Add to favorites ::.</FONT></B></TD></TR>
+              <TR>
+                <TD bgColor=black width=72>
+                  <CENTER><FONT face=arial style="FONT-SIZE: 12px"><B>Please 
+                  click
+                  <SCRIPT language=JavaScript>
+
+var url = "http://vinodkotiya.tripod.com";
+var who = "VINSOFT : Vinod Kotiya";
+
+var ver = navigator.appName;
+var num = parseInt(navigator.appVersion);
+if ((ver == "Microsoft Internet Explorer")&&(num >= 4)) {
+
+document.write('<A HREF="javascript:window.external.AddFavorite(url,who);" ');
+document.write(' >HERE</a>');
+
+
+}
+
+                  </SCRIPT>
+                  to bookmark <BR>this page. </B></FONT></CENTER></TD></TR>
+              <TR>
+                <TD bgColor=#220044 height=20 width=72><B>
+                <FONT color=#FFFF00 
+                  face="arial" style="FONT-SIZE: 11px">
+                  <CENTER>.:: Tell a friend about my site 
+                  ::.</CENTER></FONT></B></TD></TR>
+              <TR>
+                <TD bgColor=black width=146><BR>
+                  <CENTER>
+                  <FORM 
+                  action=http://vinodkotiya.tripod.com 
+                  method=post target=_new><INPUT name=url type=hidden 
+                  value=http://vinodkotiya.tripod.com> <INPUT name=id type=hidden 
+                  value=9782471175> <FONT face=arial 
+                  style="FONT-SIZE: 12px"><B>Friends Email : 
+                    <INPUT 
+                  name=friendsmail onclick="javascript:friendsmail.value='';" 
+                  size=15 
+                  style="BACKGROUND-COLOR: #000000; BORDER-BOTTOM: #6c7ceb 1px solid; BORDER-LEFT: #6c7ceb 1px solid; BORDER-RIGHT: #6c7ceb 1px solid; BORDER-TOP: #6c7ceb 1px solid; COLOR: #6c7ceb" 
+                  value=friends@email> <BR>&nbsp;&nbsp; Your Email : 
+                    <INPUT name=yourmail 
+                  onclick="javascript:yourmail.value='';" size=15 
+                  style="BACKGROUND-COLOR: #000000; BORDER-BOTTOM: #6c7ceb 1px solid; BORDER-LEFT: #6c7ceb 1px solid; BORDER-RIGHT: #6c7ceb 1px solid; BORDER-TOP: #6c7ceb 1px solid; COLOR: #6c7ceb" 
+                  value=your@email><BR><BR><INPUT style="BACKGROUND-COLOR: #220044; BORDER-BOTTOM: #6c7ceb 1px solid; BORDER-LEFT: #6c7ceb 1px solid; BORDER-RIGHT: #6c7ceb 1px solid; BORDER-TOP: #6c7ceb 1px solid; COLOR: #6c7ceb; FONT-FAMILY: arial; FONT-SIZE: 9px; FONT-WEIGHT: bold; HEIGHT: 20px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center; TEXT-DECORATION: none; WIDTH: 120px" type=submit value="Tell your friend"><BR></FORM></B></FONT></CENTER></TD></TR>
+              <TR>
+                <TD bgColor=#220044 height=20 width=146>&nbsp;</TD></TR>
+              </TBODY></TABLE></TD></TR>
+        <TR>
+          <TD align=left height=30 vAlign=top 
+width=224>
+          <p></p>
+          <p></TD></TR></TBODY></TABLE></TD>
+    <TD align=middle vAlign=top width=639 border="0">
+      <div align="center">
+        <center>
+      <TABLE valing="top" width="180" style="border-collapse: collapse" cellpadding="0" cellspacing="0" align="left">
+        <TBODY>
+        <TR>
+          <TD vAlign=top width=740 border="0"><BR>
+            <FORM 
+            action="javascript:void window.open('feedback.html','_blank','width=400,height=300,dependent=yes,toolbar=no,menubar=no,scrollbars=yes,resizable=yes,location=no,directories=no,status=no')" 
+            method=post name=defil>
+              <INPUT maxLength=255 name=msg size=81 
+            style="BACKGROUND-COLOR: #000000; BORDER-BOTTOM: #220044 1px solid; BORDER-LEFT: #220044 1px solid; BORDER-RIGHT: #220044 1px solid; BORDER-TOP: #220044 1px solid; COLOR: #ffff00" 
+            value="Welcome to http://vinodkotiya.tripod.com!"> <INPUT name=ok style="BACKGROUND-COLOR: #220044; BORDER-BOTTOM: #6c7ceb 1px solid; BORDER-LEFT: #6c7ceb 1px solid; BORDER-RIGHT: #6c7ceb 1px solid; BORDER-TOP: #6c7ceb 1px solid; COLOR: #6c7ceb; FONT-FAMILY: arial; FONT-SIZE: 11px; FONT-WEIGHT: bold; HEIGHT: 19px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center; TEXT-DECORATION: none; WIDTH: 100px" type=submit value="Say something"> 
+            </FORM>
+              <p><B><FONT 
+                  color=#6c7ceb face="arial" style="FONT-SIZE: 22px">
+          <img border="0" src="images/ving.gif" align="left" width="32" height="32"></FONT></B><u><font color="#00FFFF"><b>VIN 
+          Say's</b></font></u><b><u><font color="#00FFFF"> </font></u>
+          <font color="#00FFFF">: </font></b><font color="#00FF00"> 
+          <SCRIPT language=JavaScript type=text/javascript >
+var a = (Math.random() +" ") 
+var rand1 = Math.floor(a.charAt(5) * a * 12345) % 40;
+//document.write(rand1);
+quotes = new Array
+quotes[1] = "ANY SUFFICIENTLY ADVANCED TECHNOLOGY IS INDISTINGUISHIBLE FROM MAGIC."
+quotes[2] = "ALL GREAT DISCOVERIES ARE MADE BY MISTAKES."
+quotes[3] = "DO NOT BELIEVE IN MIRACLES,RELY ON THEM."
+quotes[4] = "ALWAYS DRAW YOUR CURVES,THEN PLOT YOUR READINGS."
+quotes[5] = "ALL INSTRUMENTS WHEN DROPPED WILL ROLL INTO THE LEAST ACCESSIBLE CORNER."
+quotes[6] = "NOTHING IS AS EASY AS IT LOOKS."
+quotes[7] = "EVERYTHING TAKES LONGER THAN YOU THINK."
+quotes[8] = "IT IS IMPOSIBLE TO MAKING ANYTHING FOOLPROOF BECAUSE FOOLS ARE SO INGENIOUS."
+quotes[9] = "IF EVERYTHING SEEMS TO BE GOING WELL,YOU HAVE OBVIOUSLY OVERLOOKED SOMETHING."
+quotes[10] = "LEFT TO THEMSELVES,THINGS TEND TO GO FROM BAD TO WORSE."
+quotes[11] = "IF IT IS NOT IN THE COMPUTER IT DOES NOT EXIST."
+quotes[12] = "EVERY SOLUTION BREEDS NEW PROBLEMS."
+quotes[13] = "YOU NEVER RUN OUT OF THINGS THAT CAN GO WRONG."
+quotes[14] = "IF A PROGRAM IS USELESS,IT WILL HAVE TO BE DOCUMENTED."
+quotes[15] = "ANY PROGRAM WILL EXPAND TO FILL AVAILABLE MEMORY."
+quotes[16] = " MATTER WILL BE DAMAGED IN DIRECT PROPORTION TO ITS VALUE."
+quotes[17] = "  EVERYTHING GOES WRONG ALL AT ONCE."
+quotes[18] = "WHEN AN ERROR HAS BEEN DETECTED AND CORRECTED, IT WILL BE FOUND TO HAVE BEEN CORRECT IN THE FIRST PLACE."
+quotes[19] = " IF AN EXPERIMENT WORKS, SOMETHING HAS GONE WRONG."
+quotes[20] = "  IN ANY COLLECTION OF DATA, THE FIGURE MOST OBVIOUSLY CORRECT, BEYOND ALL NEED OF CHECKING, IS THE MISTAKE."
+quotes[21] = "THE VALUE OF A PROGRAM IS PROPOTIONAL TO THE WEIGHT OF ITS OUTPUT."
+quotes[22] = "ANY NON-TRIVIAL PROGRAM CONTAINS ATLEAST ONE BUG."
+quotes[23] = "UNDETECTABLE ERRORS ARE INFINITE IN VARIETY,IN CONTRAST TO DETECTABLE ERRORS,WHICH BY DEFINATION ARE FINITE."
+quotes[24] = "PAPER IS ALWAYS STRONGEST AT THE PERFORMANCE."
+quotes[25] = "EXPERIMENT SHOULD BE REPRODUCIBLE,THEY SHOULD ALL FAIL IN THE SAME WAY."
+quotes[26] = "DO NOT BELIEVE IN MIRACLES,RELY ON THEM."
+quotes[27] = "MACHINE SHOULD WORK,PEOPLE SHOULD THINK."
+quotes[28] = "WHEN ALL ELSE FAILS,READ THE INSTRUCTIONS."
+quotes[29] = "ANY ATTEMPT TO PRINT vinsoft's webpage JAM THE PRINTER. "
+quotes[30] = "NEW SYSTEM GENERATES NEW PROBLEMS."
+quotes[31] = " IT IS A MISTAKE TO ALLOW ANY MECHANICAL OBJECT TO REALIZE THAT YOU ARE IN A HURRY."
+quotes[32] = " AFTER THINGS HAVE GONE FROM BAD TO WORSE, THE CYCLE WILL REPEAT ITSELF."
+quotes[33] = " LOGIC IS A SYSTEMATIC METHOD OF COMING TO THE WRONG CONCLUSION WITH CONFIDENCE."
+quotes[34] = " IF ANYTHING CAN GO WRONG, IT WILL."
+quotes[35] = " IN CRISES THAT FORCE PEOPLE TO CHOOSE AMONG ALTERNATIVE COURSES OF ACTION, MOST PEOPLE WILL  CHOOSE THE WORST ONE POSSIBLE."
+quotes[36] = " THINGS WILL GET WORSE BEFORE THEY WILL GET BETTER. WHO SAID THINGS WOULD GET BETTER?"
+quotes[37] = " EVERYONE HAS A SCHEME THAT WILL NOT WORK."
+quotes[38] = " The Law OF TIME: When the TRAIN you are on is late, the TRAIN you want to transfer to is on time."
+quotes[39] = " kotiya's Ovservation: The chance of the bread falling with the butter side down  is directly proportional to the value of the carpet."
+quotes[40] = "ANY GIVEN PROGRAM WHEN RUNNING IS OBSOLETE(old fashioned)."
+quotes[0] = "THE FASTER A COMPUTER IS ,THE FASTER IT WILL RICH TO A CRASHED STATE."
+
+
+var quote = quotes[rand1]
+document.write(quote);
+              </SCRIPT>          
+          </font>
+            </p>
+          <p><BR>
+            </p>
+
+            <CENTER>
+            <TABLE align=left cellPadding=0 cellSpacing=0 
+            style="BORDER-BOTTOM: #6c7ceb 4px solid; BORDER-LEFT: black 4px solid; BORDER-RIGHT: black 4px solid; BORDER-TOP: #6c7ceb 4px solid" width="572">
+              <TBODY>
+              <TR>
+                <TD align=middle bgColor=#220044 width=564><B><FONT 
+                  color=#6c7ceb face="arial" style="FONT-SIZE: 22px">
+                  <CENTER>.:: VINSOFT 
+            ::.</CENTER></FONT></B></TD></TR></TBODY></TABLE>
+            </CENTER>
+            <CENTER>
+            <CENTER>
+            <B>
+            <FONT 
+            face=arial style="FONT-SIZE: 13px" color="#6c7ceb">
+            <CENTER>
+            <p> 
+            &nbsp;</p>
+            <table border="1" cellpadding="3" style="border-collapse: collapse" width="63%" id="AutoNumber1" bordercolorlight="#808080" bordercolordark="#800080">
+              <tr>
+                <td width="33%" align="center">
+            <B>
+    <FONT face="arial" 
+      style="FONT-SIZE: 13px; font-weight:700" color="#00BFFF">
+                <a href="games.html"><u><font color="#00BFFF">Games</font></u></a></FONT></B></td>
+                <td width="33%" align="center">
+            <FONT 
+            face=arial style="FONT-SIZE: 13px; font-weight:700" color="#6c7ceb">
+            <a href="stand.html">
+    <FONT face="arial" 
+      style="FONT-SIZE: 13px" color="#00BFFF"><u>My
+                Projects</u></FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"><u> </u> </FONT></a></FONT></td>
+                <td width="34%" align="center">
+            <B>
+                <FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px">&nbsp;<a href="gate.html"><u><font color="#00BFFF">GATE
+            </font></u></a> </FONT></B></td>
+                </tr>
+                <tr>
+                  <td width="33%" align="center">
+                  <FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px; font-weight:700"><a href="fun.html">
+                  <font color="#00BFFF"><u>FUN </u></font></a> </FONT></td>
+                  <td width="33%" align="center">
+            <B>
+                <font color="#FFFF00" face="verdana" size="2">
+            <a href="index.html"><u><font color="#FFFF00">Home&nbsp; </font>
+                </u></a></font></B>
+                  </td>
+                  <td width="34%" align="center">
+            <B>
+                  <FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px; font-weight:700"><a href="source.html"><u>
+            <font color="#00BFFF">Source Code</font></u></a></FONT></B></td>
+                </tr>
+                <tr>
+                  <td width="33%">
+                  <p align="center">
+          <B>
+                  <FONT color=#FFFF00 face=verdana 
+                  size=2><u>
+                <a href="jobs.html"><font color="#33CCFF"><u>Careers</u></font></a></u></FONT></B></td>
+                  <td width="33%">
+                  <p align="center">
+            <B>
+                  <FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"><a href="tutors.html"><font color="#00BFFF"><u>Tutorials</u></font></a></FONT></B></td>
+                  <td width="34%">
+                  <p align="center">
+            <B>
+            <FONT 
+            face=arial style="FONT-SIZE: 13px" color="#6c7ceb">
+                  <a href="aboutme.html"><u>
+                  <font size="2" color="#00BFFF">About Me</font></u></a><font size="2"><a href="aboutme.html"><font color="#00BFFF"><u>
+    </u>
+    </font></a>
+    </font>
+            </FONT>
+                  </B></td>
+                </tr>
+              </table>
+            </CENTER></CENTER></CENTER><font SIZE="4"><u>
+          <p><BR>
+            </p>
+            <CENTER>
+            <TABLE align=left cellPadding=0 cellSpacing=0 
+            style="BORDER-BOTTOM: #6c7ceb 4px solid; BORDER-LEFT: black 4px solid; BORDER-RIGHT: black 4px solid; BORDER-TOP: #6c7ceb 4px solid" width="573">
+              <TBODY>
+              <TR>
+                <TD align=middle bgColor=#220044 width=565><B><FONT 
+                  color=#6c7ceb face="arial" style="FONT-SIZE: 22px">
+                  <CENTER>
+                  <p>.:: FREE SOURCE CODE BY VINOD ::.</p>
+                </CENTER></FONT></B></TD></TR></TBODY></TABLE>
+            </CENTER>
+          <p ALIGN="CENTER">&nbsp;</p>
+          <p ALIGN="CENTER"></p>
+          </u></font>
+          <font COLOR="#ffffff">
+          <p></p>
+          </font>
+          <font COLOR="#ffffff">
+          <p></p>
+          </font>
+          <p> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Please 
+          note that i have not a lot of space in this site to provide you the
+          <br>
+          source code. Even i am unable to provide my games executable (more than 
+          5 to 20 MB) due to bandwidth problem.So do contact me offline at 
+          vinodkotiya@yahoo.com by mail. I will send the source code. Till enjoy 
+          some of these free source code. If you know any webhost who provide 
+          free web space then please inform me.</font></p>
+            </FONT>
+            <FONT 
+            face=arial>
+          <p><u>      
+
+   <FONT FACE= ARIAL,HELVATICA SIZE = 5>      Source Code of Some Projects in 
+          C/C++ :-</FONT></u></FONT><FONT 
+            face=ARIAL,HELVATICA size="5"> </FONT></p>
+          <p><font face="ARIAL,HELVATICA" size="5">&nbsp;</font></B><font face="ARIAL,HELVATICA" size="2" color="#00FFFF">To 
+          view the description of these projects go to <a href="stand.html">
+          <font color="#00BFFF"><u>project section.</u></font></a></font></p>
+            <B>
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+  </font> 
+ <FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source code of  
+  VIN Cryptograph v2.0  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>             
+  <font size="2"><a href="source/crypto.zip"><u>Click Here</u> </a>to DOWNLOAD </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;</FONT></font><FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2"> Source code of  DHUN (the musical instruments)  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>             
+  <font size="2"><a href="source/dhun.cpp"><u>Click Here</u></a><A HREF= "source/dhun.html">      
+  </A>        </font>        <font size="2">to DOWNLOAD
+  </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+  </font> 
+ <FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source code of  BANK Management System  :-
+  </font> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+  <font size="2"><a href="source/bank.cpp"><u>Click Here </u></a>to DOWNLOAD </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+  </font> 
+ <FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source code of  Kramchay (The Permutation)  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>       <A HREF= "source/kramchay.html">      
+  <font size="2"><u>Click Here</u> </font>   </A>        <font size="2">to DOWNLOAD
+  </font>   </DIV>            
+          <p>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+          </font> 
+ <FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source 
+          code of Railway Management System  :- </font> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+          <font size="2"><a href="source/railway.cpp"><u>Click Here</u> </a>to DOWNLOAD
+          </font>   </p>
+          <p>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+          </font> 
+ <FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source 
+          code of Hotel Management System  :- </font> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+          <font size="2"><a href="source/hotel.cpp"><u>Click Here</u> </a>to DOWNLOAD
+          </font>   </p>
+          <p>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+          </font> 
+ <FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source code of  
+          Library Management System  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>             
+          <font size="2"><a href="source/library.cpp"><u>Click Here</u> </a>to DOWNLOAD </font>   </font></p>
+          <p>   
+ <FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            &nbsp;                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source code of  
+          BookShop Management System  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>             
+          <font size="2"><a href="source/classes/SHOP.CPP"><u>Click Here</u> </a>to DOWNLOAD</font></font></p>
+            <FONT 
+            face=arial>
+          <p><u>      
+
+   <FONT FACE= ARIAL,HELVATICA SIZE = 5>      Source Code of My Projects in ASP 
+          + Oracle :-</FONT></u></p>
+          <p><FONT 
+            face=ARIAL,HELVATICA size="5">&nbsp;</FONT><FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">Source 
+          code of Online Software and Games Shop&nbsp;  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA size="2"><a href="unavail.html"><u>Click Here</u> </a><a href="source/classes/SHOP.CPP">&nbsp;</a>to DOWNLOAD</font></p>
+          <p>   
+ <FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            &nbsp; 
+          Source code of Online BookShop&nbsp;  :-</font><font size="2"><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><a href="unavail.html"><u>Click Here</u> </a>   
+  </font> 
+          </font>                
+          <font size="2" COLOR="#00ff00" FACE="ARIAL,HELVATICA"><a href="source/classes/SHOP.CPP">&nbsp;</a>to DOWNLOAD</font></p>
+          <p><u>      
+
+   <FONT FACE= ARIAL,HELVATICA SIZE = 5>      Source Code of My Projects in VB 
+          :-</FONT></u><FONT 
+            face=ARIAL,HELVATICA size="5"> </FONT></p>
+          </FONT></B>
+            <FONT 
+            face=arial>
+          <p><font face="ARIAL,HELVATICA" size="2" color="#00FFFF">&nbsp;To view 
+          the description of these projects go to <a href="stand.html">
+          <font color="#00BFFF"><u>project section.</u></font></a></font></p>
+          </FONT>
+            <B>
+            <FONT 
+            face=arial color="#33CCFF">
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+         
+      <DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+        </font> 
+ <FONT FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source code of  FONE DIRECTORY  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>       <A HREF= "source/fone.zip">      
+        <font size="2"><u>Click Here</u> </font>   </A>        <font size="2">to DOWNLOAD
+        </font>   </DIV>               
+         
+      <DIV ALIGN = left>  &nbsp;</DIV>               
+   <DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+     </font> 
+ <FONT FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source code of  Have A Break  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>       <A HREF= "source/break.zip">      
+     <font size="2"><u>Click Here</u> </font>   </A>        <font size="2">to DOWNLOAD
+     </font>   </DIV>               
+   <DIV ALIGN = left>  &nbsp;</DIV>               
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+  </font> 
+ <FONT FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source code of  Talking Clock  :-
+  </font> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+  <A HREF= "source/clock.zip">      <font size="2"><u>Click Here</u> </font>   </A>        
+  <font size="2">to DOWNLOAD </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;</FONT></font><FONT FACE= ARIAL,HELVATICA SIZE="2"> 
+  Source code of VIN Convert Center  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>   
+  <font size="2"><a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+  </font> 
+ <FONT FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source 
+  code of VIN Instant Messanger  :- </font> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            <font size="2">
+  <a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;</FONT></font><FONT FACE= ARIAL,HELVATICA SIZE="2"> 
+  Source code of VIN ALL2HTML Converter v2.0  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>   
+  <font size="2"><a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;</FONT></font><FONT FACE= ARIAL,HELVATICA SIZE="2"> 
+  Source code of VIN Remind Me Later:- </font> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            <font size="2">
+  <a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+  </font> 
+ <FONT FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source 
+  code of VIN Setup Wizard v1.0  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>   
+  <font size="2"><a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;  </FONT>   
+  </font> 
+ <FONT FACE= ARIAL,HELVATICA SIZE="2">                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            Source 
+  code of VIN Script Generator  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>   
+  <font size="2"><a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>   </DIV>            
+<DIV ALIGN = left>  &nbsp;</DIV>            
+<DIV ALIGN = left>  <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>&nbsp;</FONT></font><FONT FACE= ARIAL,HELVATICA SIZE="2"> 
+  Source code of VIN Web Compiler v3.0  :- </font> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            <font size="2">
+  <a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>   </DIV>            
+              <p>&nbsp;</p>
+          </font></FONT>
+            <FONT 
+            face=arial>
+          <p><u>      
+
+   <FONT FACE= ARIAL,HELVATICA SIZE = 5>      Source Code of My GAMES :-</FONT></u><FONT 
+            face=ARIAL,HELVATICA size="5"> </FONT></p>
+          </B>
+          <p><font face="ARIAL,HELVATICA" size="2" color="#00FFFF">To view the 
+          description of these projects go to <a href="stand.html">
+          <font color="#00BFFF"><u>project section.</u></font></a></font></p>
+            <B>
+          <p>&nbsp;
+            <FONT 
+            face=arial color="#33CCFF" SIZE="2">
+          Source code of SNAKE Game :-</FONT><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA SIZE="2">
+          <a href="source/snake.cpp"><u>Click Here</u> </a>to DOWNLOAD </font></p>
+          <p>
+            <FONT 
+            face=arial color="#33CCFF" SIZE="2">
+          &nbsp; Source code of MatchBox Game :-</FONT><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA SIZE="2">
+          <a href="source/match.cpp"><u>Click Here</u> </a>to DOWNLOAD </font></p>
+          <p>
+            <FONT 
+            face=arial color="#33CCFF" SIZE="2">
+          &nbsp; Source code of KBC Game :-</FONT><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA SIZE="2">
+          <a href="source/kbc.cpp"><u>Click Here</u> </a>to DOWNLOAD </font></p>
+          <p>
+            <FONT COLOR =#33CCFF FACE= ARIAL,HELVATICA SIZE="2">&nbsp; Source code of  DHUN (the musical instruments)  :-</font><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  </FONT>             
+  <font size="2"><a href="source/dhun.cpp"><u>Click Here</u></a><A HREF= "source/dhun.html">      
+            </A>        to DOWNLOAD</font></font></p>
+          <p>
+            <FONT 
+            face=arial color="#33CCFF" SIZE="2">
+          &nbsp; Source code of TIC-TAC-TOE Game :-</FONT><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA SIZE="2">
+            <a href="source/tictac.cpp"><u>Click Here</u> </a>to DOWNLOAD </font></p>
+          </B></FONT>
+            <B>
+            <FONT 
+            face=arial>
+          <p>&nbsp; </FONT>
+            <FONT 
+            face=arial color="#33CCFF" SIZE="2">
+          Source code of SPACE INVADER (size 20 MB) :-</FONT><FONT 
+            face=arial color="#33CCFF"><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA SIZE="2">
+          </font> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            <font size="2">
+          <a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>
+          </font></p>
+          </FONT>
+            <FONT 
+            face=ARIAL,HELVATICA color="#33CCFF" size="2">
+          <p>&nbsp; </FONT>  <FONT FACE= ARIAL,HELVATICA SIZE = 2>
+            <FONT 
+            face=ARIAL,HELVATICA color="#33CCFF" size="2">
+          Source code of THE Final Quest (size 25 MB)  :-</FONT></FONT><FONT 
+            face=ARIAL,HELVATICA color="#00FF00" size="2"><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            </font>  </FONT>    
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            <font size="2">
+          <a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>
+          </font></p>
+          <p>&nbsp;</FONT><FONT 
+            face=ARIAL,HELVATICA color="#33CCFF" size="2"> </FONT>
+            <FONT 
+            face=ARIAL,HELVATICA color="#00FF00" size="2">
+          <FONT FACE= ARIAL,HELVATICA SIZE = 2>
+            <FONT 
+            face=ARIAL,HELVATICA color="#33CCFF" size="2">
+          Source code of VIN Maze (size 1 MB)  :-</FONT></FONT><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            </font>  </FONT>    
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            <font size="2">
+          <a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>
+          </font></p>
+          <p>&nbsp; </FONT>  <FONT FACE= ARIAL,HELVATICA SIZE = 2>
+            <FONT 
+            face=ARIAL,HELVATICA color="#33CCFF" size="2">
+          Source code of BINARY LAND (size 2 MB)  :-</FONT></FONT><FONT 
+            face=ARIAL,HELVATICA color="#00FF00" size="2"><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            </font>  </FONT>    
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            <font size="2">
+          <a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>
+          </font>&nbsp;</p>
+          <p>&nbsp; </FONT>  <FONT FACE= ARIAL,HELVATICA SIZE = 2>
+            <FONT 
+            face=ARIAL,HELVATICA color="#33CCFF" size="2">
+          Source code of&nbsp; VINCANOID(size 1 MB)  :-</FONT></FONT><FONT 
+            face=ARIAL,HELVATICA color="#00FF00" size="2"><FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2><FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            </font>  </FONT>    
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                            <font size="2">
+          <a href="unavail.html"><u>Click Here</u> </a>to DOWNLOAD </font>
+          </font>&nbsp;</p>
+          </FONT>
+            <FONT 
+            face=ARIAL,HELVATICA size="2">
+          <p>
+            <FONT 
+            face=arial>
+          <u>      
+
+   <FONT FACE= ARIAL,HELVATICA SIZE = 5>      Source Code of DATA Structure in C 
+            :-</FONT></u><FONT 
+            face=ARIAL,HELVATICA size="5"> </FONT></FONT></p>
+          </FONT>
+            <FONT 
+            face=arial color="#33CCFF">
+          <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber3">
+            <tr>
+              <td width="25%" align="center"><a href="source/binsrch.cpp"><u>
+              <font color="#33CCFF">Binary Search</font></u></a></td>
+              <td width="25%" align="center">&nbsp;<a href="source/heap.cpp"><font color="#33CCFF"><u>Heap 
+              Sort</u></font></a></td>
+              <td width="25%" align="center">&nbsp;<a href="source/knapsack.cpp"><u><font color="#33CCFF">Knapsack</font></u></a></td>
+              <td width="25%" align="center">&nbsp;<a href="source/mergesrt.cpp"><font color="#33CCFF"><u>Merge 
+              Sort</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center"><font color="#33CCFF"><a href="source/quick.cpp">
+              <u><font color="#33CCFF">Quick Sort</font></u></a></font></td>
+              <td width="25%" align="center">&nbsp;<a href="source/ibinsrch.cpp"><font color="#33CCFF"><u>Iterative 
+              Binary</u></font></a></td>
+              <td width="25%" align="center">&nbsp;<a href="source/recur.cpp"><u><font color="#33CCFF">Recursive</font></u></a></td>
+              <td width="25%" align="center"><a href="source/joseph.cpp">
+              <font color="#33CCFF"><u>Joseph</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center"><a href="source/bubble.cpp">
+              <font color="#33CCFF"><u>Bubble Sort</u></font></a></td>
+              <td width="25%" align="center">&nbsp;<a href="source/strings.cpp"><font color="#33CCFF"><u>Strings</u></font></a></td>
+              <td width="25%" align="center">&nbsp;</td>
+              <td width="25%" align="center">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">&nbsp;</td>
+              <td width="25%" align="center">&nbsp;</td>
+              <td width="25%" align="center">&nbsp;</td>
+              <td width="25%" align="center">&nbsp;</td>
+            </tr>
+          </table>
+            </FONT>
+            <FONT 
+            face=arial>
+          <p>
+            <FONT 
+            face=arial size="2">
+          <u>      
+
+   <FONT FACE= ARIAL,HELVATICA SIZE = 5>      Source Code of File Handling in C++ 
+          :-</FONT></u><FONT 
+            face=ARIAL,HELVATICA size="5"> </FONT></FONT></p>
+            </FONT>
+            <FONT 
+            face=arial color="#33CCFF">
+          <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber5">
+            <tr>
+              <td width="37%">
+              <p align="center">
+            <FONT 
+            face=arial color="#33CCFF">
+              <a href="tutor/prog/writeobj1.html"><font color="#00FF00"><u>writing
+objects in file</u></font></a></FONT></td>
+              <td width="63%">
+              <p align="center">
+            <FONT 
+            face=arial color="#33CCFF">
+              <a href="tutor/prog/writeobj2.html"><font color="#00FF00"><u>writing
+objects and updating</u></font></a></FONT></td>
+            </tr>
+            <tr>
+              <td width="37%">
+              <p align="center">
+            <FONT 
+            face=arial color="#33CCFF">
+              <a href="tutor/prog/binfile.html"><font color="#00FF00"><u>writing
+binary file</u></font></a></FONT></td>
+              <td width="63%">
+            <FONT 
+            face=arial color="#33CCFF">
+              <a href="tutor/prog/cmdline.html"><font color="#00FF00"><u>write
+file using command line arguments</u></font></a></FONT></td>
+            </tr>
+            <tr>
+              <td width="37%">
+              <p align="center">
+            <FONT 
+            face=arial color="#33CCFF">
+              <a href="tutor/prog/writeobj3.html"><font color="#00FF00"><u>writing
+objects in file</u></font></a></FONT></td>
+              <td width="63%">
+            <FONT 
+            face=arial color="#33CCFF">
+              <a href="tutor/prog/ovrldio.html"><font color="#00FF00"><u>overloading
+istream and ostream operator</u></font></a></FONT></td>
+            </tr>
+            <tr>
+              <td width="37%">
+              <p align="center">
+            <FONT 
+            face=arial color="#33CCFF">
+              <a href="tutor/prog/writemethod.html"><font color="#00FF00"><u>writing
+methods into a file</u></font></a></FONT></td>
+              <td width="63%">
+              <p align="center">
+            <FONT 
+            face=arial color="#33CCFF">
+              <a href="tutor/prog/readwrite.html"><font color="#00FF00"><u>see
+readwrite example</u></font></a></FONT></td>
+            </tr>
+          </table>
+            </FONT>
+            <FONT 
+            face=arial>
+          <p>
+            <FONT 
+            face=arial size="2">
+          <u>      
+
+   <FONT FACE= ARIAL,HELVATICA SIZE = 5>      Source Code of My OOPs Program in C++ 
+            (53):-</FONT></u><FONT 
+            face=ARIAL,HELVATICA size="5"> </FONT></FONT></p>
+            </FONT>
+            </B>
+            <FONT size="5">
+          <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber6">
+            <tr>
+              <td width="25%" align="center"><a href="source/classes/SHOP.CPP">
+              <font size="2" color="#33CCFF"><u>SHOP.CPP</u></font></a></td>
+              <td width="25%" align="center"><a href="source/classes/Shop1.cpp">
+              <font size="2" color="#33CCFF"><u>Shop1.cpp</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/STATIC.CPP">
+              <font size="2" color="#33CCFF"><u>STATIC.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/PLUSEQAL.CPP">
+              <font size="2" color="#33CCFF"><u>PLUSEQAL.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/2IN3RD.CPP">
+              <font size="2" color="#33CCFF"><u>2IN3RD.CPP</u></font></a></td>
+            </FONT>
+              <td width="25%" align="center">
+              <a href="source/classes/ARR1_2.CPP">
+              <font size="2" color="#33CCFF"><u>ARR1_2.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/ARRCONST.CPP">
+              <font size="2" color="#33CCFF"><u>ARRCONST.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/BIGGER.CPP">
+              <font size="2" color="#33CCFF"><u>BIGGER.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center"><a href="source/classes/CALC.CPP">
+              <font size="2" color="#33CCFF"><u>CALC.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/CLASFRND.CPP">
+              <font size="2" color="#33CCFF"><u>CLASFRND.CPP</u></font></a></td>
+              <td width="25%" align="center"><a href="source/classes/CLASS.CPP">
+              <font size="2" color="#33CCFF"><u>CLASS.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/CO_DI_1R.CPP">
+              <font size="2" color="#33CCFF"><u>CO_DI_1R.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/CO_DI_IN.CPP">
+              <font size="2" color="#33CCFF"><u>CO_DI_IN.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/COPYCONS.CPP">
+              <font size="2" color="#33CCFF"><u>COPYCONS.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/DESTRUCT.CPP">
+              <font size="2" color="#33CCFF"><u>DESTRUCT.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/DISTANCE.CPP">
+              <font size="2" color="#33CCFF"><u>DISTANCE.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/EQALEQAL.CPP">
+              <font size="2" color="#33CCFF"><u>EQALEQAL.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/FABONACI.CPP">
+              <font size="2" color="#33CCFF"><u>FABONACI.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/FACTORIA.CPP">
+              <font size="2" color="#33CCFF"><u>FACTORIA.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/HYBRID.CPP">
+              <font size="2" color="#33CCFF"><u>HYBRID.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/Hybridinheritance.cpp">
+              <font size="2" color="#33CCFF"><u>Hybridinheritance.cpp</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/Hybridinheritance.cpp">
+              <font size="2" color="#33CCFF"><u>Hybridinheritance.cpp</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/INHRT_P1.CPP">
+              <font size="2" color="#33CCFF"><u>INHRT_P1.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/INITIATE.CPP">
+              <font size="2" color="#33CCFF"><u>INITIATE.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/INLINE.CPP">
+              <font size="2" color="#33CCFF"><u>INLINE.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/INT_O_P.CPP">
+              <font size="2" color="#33CCFF"><u>INT_O_P.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/INT_O_P1.CPP">
+              <font size="2" color="#33CCFF"><u>INT_O_P1.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/LOAD_OPP.CPP">
+              <font size="2" color="#33CCFF"><u>LOAD_OPP.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/LOAD-OPP.CPP">
+              <font size="2" color="#33CCFF"><u>LOAD-OPP.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/MAXFRAND.CPP">
+              <font size="2" color="#33CCFF"><u>MAXFRAND.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/MUL_INH1.CPP">
+              <font size="2" color="#33CCFF"><u>MUL_INH1.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/MUL_LEV1.CPP">
+              <font size="2" color="#33CCFF"><u>MUL_LEV1.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/MUL_LEV2.CPP">
+              <font size="2" color="#33CCFF"><u>MUL_LEV2.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/MULTIINH.CPP">
+              <font size="2" color="#33CCFF"><u>MULTIINH.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/MULTILEV.CPP">
+              <font size="2" color="#33CCFF"><u>MULTILEV.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/OP_STRPL.CPP">
+              <font size="2" color="#33CCFF"><u>OP_STRPL.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/Opovload.cpp">
+              <font size="2" color="#33CCFF"><u>Opovload.cpp</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/P1INLNEO.CPP">
+              <font size="2" color="#33CCFF"><u>P1INLNEO.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/P2INLNGR.CPP">
+              <font size="2" color="#33CCFF"><u>P2INLNGR.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/P3ITEM.CPP">
+              <font size="2" color="#33CCFF"><u>P3ITEM.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center"><a href="source/classes/POWER.CPP">
+              <font size="2" color="#33CCFF"><u>POWER.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/PROT_ARR.CPP">
+              <font size="2" color="#33CCFF"><u>PROT_ARR.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/PROTECT2.CPP">
+              <font size="2" color="#33CCFF"><u>PROTECT2.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/PROTECT1.CPP">
+              <font size="2" color="#33CCFF"><u>PROTECT1.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/STDENTS.CPP">
+              <font size="2" color="#33CCFF"><u>STDENTS.CPP</u></font></a></td>
+              <td width="25%" align="center"><a href="source/classes/STUD1.CPP">
+              <font size="2" color="#33CCFF"><u>STUD1.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/SWAPCLAS.CPP">
+              <font size="2" color="#33CCFF"><u>SWAPCLAS.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/SWAPFRND.CPP">
+              <font size="2" color="#33CCFF"><u>SWAPFRND.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/Virtualinheritance.cpp">
+              <font size="2" color="#33CCFF"><u>Virtualinheritance.cpp</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/P5FRNDSW.CPP">
+              <font size="2" color="#33CCFF"><u>P5FRNDSW.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/P6STDSIM.CPP">
+              <font size="2" color="#33CCFF"><u>P6STDSIM.CPP</u></font></a></td>
+              <td width="25%" align="center">
+              <a href="source/classes/P7GREAT3.CPP">
+              <font size="2" color="#33CCFF"><u>P7GREAT3.CPP</u></font></a></td>
+            </tr>
+            <tr>
+              <td width="25%" align="center">
+              <a href="source/classes/P4FRIEND.CPP">
+              <font size="2" color="#33CCFF"><u>P4FRIEND.CPP</u></font></a></td>
+              <td width="25%" align="center">&nbsp;</td>
+              <td width="25%" align="center">&nbsp;</td>
+              <td width="25%" align="center">&nbsp;</td>
+            </tr>
+          </table>
+            <B>
+            <FONT 
+            face=arial color="#33CCFF">
+            </FONT>
+            </B>
+            <B>
+            <FONT 
+            face=arial>
+          <p>
+            <FONT 
+            face=arial size="2">
+          <u>      
+
+   <FONT FACE= ARIAL,HELVATICA SIZE = 5>      Source Code of&nbsp; My C/C++ Programs(74) :-</FONT></u></FONT><FONT 
+            face=ARIAL,HELVATICA size="5">&nbsp;</FONT></p>
+            <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber4">
+              <tr>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;1.cpp</font></u></td>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><a href="source/2.CPP"><font color="#00FFFF" size="2"><u>2</u></font><font size="2" color="#00FFFF" face="arial"><u>.cpp</u></font></a></td>
+                <td width="12%"><font color="#00FFFF" face="arial">
+                <a href="source/3.CPP"><font color="#00FFFF" size="2"><u>3.cpp</u></font></a></font></td>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/4.CPP"><font size="2" color="#00FFFF"><u>4.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/5.CPP"><font size="2" color="#00FFFF"><u>5.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/6.CPP"><font size="2" color="#00FFFF"><u>6.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/7.CPP"><font size="2" color="#00FFFF"><u>7.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/8.CPP"><font size="2" color="#00FFFF"><u>8.cpp</u></font></a></font></td>
+              </tr>
+              <tr>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/9.CPP"><font size="2" color="#00FFFF"><u>9.cpp</u></font></a></font></td>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/10.CPP"><font size="2" color="#00FFFF"><u>10.cpp</u></font></a></font></td>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/11.CPP"><font size="2" color="#00FFFF"><u>11.cpp</u></font></a></font></td>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/12.CPP"><font size="2" color="#00FFFF"><u>12.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/13.CPP"><font size="2" color="#00FFFF"><u>13.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/14.CPP"><font size="2" color="#00FFFF"><u>14.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/15.CPP"><font size="2" color="#00FFFF"><u>15.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/16.CPP"><font size="2" color="#00FFFF"><u>16.cpp</u></font></a></font></td>
+              </tr>
+              <tr>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/17.CPP"><font size="2" color="#00FFFF"><u>17.cpp</u></font></a></font></td>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/18.CPP"><font size="2" color="#00FFFF"><u>18.cpp</u></font></a></font></td>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/19.CPP"><font size="2" color="#00FFFF"><u>19.cpp</u></font></a></font></td>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/20.CPP"><font size="2" color="#00FFFF"><u>20.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/21.CPP"><font size="2" color="#00FFFF"><u>21.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/22.CPP"><font size="2" color="#00FFFF"><u>22.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/23.CPP"><font size="2" color="#00FFFF"><u>23.cpp</u></font></a></font></td>
+                <td width="13%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/24.CPP"><font size="2" color="#00FFFF"><u>24.cpp</u></font></a></font></td>
+              </tr>
+              <tr>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/25.CPP"><font size="2" color="#00FFFF"><u>25.cpp</u></font></a></font></td>
+                <td width="12%"><u><font size="2" color="#00FFFF">&nbsp;</font></u><font color="#00FFFF" face="arial"><u><font size="2">
+                </font></u>
+                <a href="source/26.CPP"><font size="2" color="#00FFFF"><u>26.cpp</u></font></a></font></td>
+          </FONT>
+                <td width="12%"><a href="source/mycpp/DTAILNM.CPP">
+                <font size="2" color="#00FFFF"><u>DTAILNM.CPP</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/DTAILNM1.CPP">
+                <font size="2" color="#00FFFF"><u>DTAILNM1.CPP</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/DTALROLL.CPP">
+                <font size="2" color="#00FFFF"><u>DTALROLL.CPP</u></font></a></td>
+            <FONT size="2">
+                <td width="13%"><a href="source/mycpp/NMCHANGE.CPP">
+                <font color="#00FFFF"><u>NMCHANGE.CPP</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/SORT_NM.CPP">
+                <font color="#00FFFF"><u>SORT_NM.CPP</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/SORT_ROL.CPP">
+                <font color="#00FFFF"><u>SORT_ROL.CPP</u></font></a></td>
+              </tr>
+              <tr>
+                <td width="12%"><a href="source/mycpp/SP-STD2.CPP">
+                <font color="#00FFFF"><u>SP-STD2.CPP</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/SS-STDT1.CPP">
+                <font color="#00FFFF"><u>SS-STDT1.CPP</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/ss-stdt2.cpp">
+                <font color="#00FFFF"><u>ss-stdt2.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/SS-STDT3.CPP">
+                <font color="#00FFFF"><u>SS-STDT3.CPP</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/STRCAT.C">
+                <font color="#00FFFF"><u>STRCAT.C</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/STRCMP.CPP">
+                <font color="#00FFFF"><u>STRCMP.CPP</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/STRPOINT.CPP">
+                <font color="#00FFFF"><u>STRPOINT.CPP</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/STR-STUD.CPP">
+                <font color="#00FFFF"><u>STR-STUD.CPP</u></font></a></td>
+              </tr>
+              <tr>
+                <td width="12%"><a href="source/mycpp/STRUCFUN.CPP">
+                <font color="#00FFFF"><u>STRUCFUN.CPP</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/SWAP_STR.CPP">
+                <font color="#00FFFF"><u>SWAP_STR.CPP</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/SWAP_STR.CPP">
+                <font color="#00FFFF"><u>SWAP_STR.CPP</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/SWAP2NM.CPP">
+                <font color="#00FFFF"><u>SWAP2NM.CPP</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/V5NM.cpp">
+                <font color="#00FFFF"><u>V5NM.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/V5NMCPP.CPP">
+                <font color="#00FFFF"><u>V5NMCPP.CPP</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/varrange.cpp">
+                <font color="#00FFFF"><u>varrange.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VNMS_SOR.cpp">
+                <font color="#00FFFF"><u>VNMS_SOR.cpp</u></font></a></td>
+              </tr>
+              <tr>
+                <td width="12%"><a href="source/mycpp/VCOMSORT.cpp">
+                <font color="#00FFFF"><u>VCOMSORT.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/VEXERSIS.cpp">
+                <font color="#00FFFF"><u>VEXERSIS.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/VMATRIXO.cpp">
+                <font color="#00FFFF"><u>VMATRIXO.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/vmerge.cpp">
+                <font color="#00FFFF"><u>vmerge.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VMERGEST.cpp">
+                <font color="#00FFFF"><u>VMERGEST.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VMERGE2.cpp">
+                <font color="#00FFFF"><u>VMERGE2.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VNMCODE1.cpp">
+                <font color="#00FFFF"><u>VNMCODE1.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VPALINDR.cpp">
+                <font color="#00FFFF"><u>VPALINDR.cpp</u></font></a></td>
+              </tr>
+              <tr>
+                <td width="12%"><a href="source/mycpp/VRECDIGI.cpp">
+                <font color="#00FFFF"><u>VRECDIGI.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/VRECDIGS.cpp">
+                <font color="#00FFFF"><u>VRECDIGS.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/VRECFACT.cpp">
+                <font color="#00FFFF"><u>VRECFACT.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/VRECPOW.cpp">
+                <font color="#00FFFF"><u>VRECPOW.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VRECSUM.cpp">
+                <font color="#00FFFF"><u>VRECSUM.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VSHORTNM.cpp">
+                <font color="#00FFFF"><u>VSHORTNM.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/vsigncha.cpp">
+                <font color="#00FFFF"><u>vsigncha.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VSORTALF.cpp">
+                <font color="#00FFFF"><u>VSORTALF.cpp</u></font></a></td>
+              </tr>
+              <tr>
+                <td width="12%"><a href="source/mycpp/VSORTCHM.cpp">
+                <font color="#00FFFF"><u>VSORTCHM.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/VSORTMER.cpp">
+                <font color="#00FFFF"><u>VSORTMER.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/VSTR_CPY.cpp">
+                <font color="#00FFFF"><u>VSTR_CPY.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/VSTRCAT.cpp">
+                <font color="#00FFFF"><u>VSTRCAT.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VSTRCMP.cpp.cpp">
+                <font color="#00FFFF"><u>VSTRCMP.cpp.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VSTRCPY.cpp">
+                <font color="#00FFFF"><u>VSTRCPY.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VSTRLEN.cpp">
+                <font color="#00FFFF"><u>VSTRLEN.cpp</u></font></a></td>
+                <td width="13%"><a href="source/mycpp/VSTUDENT.cpp">
+                <font color="#00FFFF"><u>VSTUDENT.cpp</u></font></a></td>
+              </tr>
+              <tr>
+                <td width="12%"><a href="source/mycpp/VSWAPMAT.cpp">
+                <font color="#00FFFF"><u>VSWAPMAT.cpp</u></font></a></td>
+                <td width="12%"><a href="source/mycpp/VTOGGLE.cpp">
+                <font color="#00FFFF"><u>VTOGGLE.cpp</u></font></a></td>
+          </FONT>
+            <FONT 
+            face=arial>
+                <td width="12%">&nbsp;</td>
+                <td width="12%">&nbsp;</td>
+                <td width="13%">&nbsp;</td>
+                <td width="13%">&nbsp;</td>
+                <td width="13%">&nbsp;</td>
+                <td width="13%">&nbsp;</td>
+              </tr>
+          </table>
+          </FONT>
+            <FONT 
+            face=arial color="#33CCFF">
+          <p> 
+ <FONT COLOR =#00ff00 FACE= ARIAL,HELVATICA>                                                                                                                                                      
+          <br>      
+
+          </font></FONT>
+            <FONT 
+            face=arial>
+
+   <FONT FACE= ARIAL,HELVATICA SIZE = 5>      Source Code of Third Party Java Scripts  :- (Totally Free) </FONT>    
+          <font size="2" color="#00FF00">Get the source code of more than 50 spectacular java scripts.Click on the link of script name to get it .These Scripts are from my script collection and many of them are not written by me. If you want to make you own script collection use my software 
+ <a href="stand/script.zip"><font color="#00FF00"><u>VIN Script Generator v2.0</u></font></a></font></FONT><FONT 
+            face=arial color="#33CCFF"><br><br>
+
+   <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>    Elastic Mouse Trail     </FONT> 
+          <font size="2">6 little images follow your mouse cursor elastically
+          </font> <A HREF= "script\elastic.html"> <font size="2"><u>DOWNLOAD </u>
+          </font> </A><br> <br> 
+     
+   <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>    Image Mouse Stars   </FONT>  
+          <font size="2">Star effect using image. </font> <A HREF= "script\image.html"> 
+          <font size="2"><u>DOWNLOAD </u></font> </A><u><br> </u> <br> 
+   <FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA>    Logo Orbit Message     </FONT>   A message goes around the mouse cursor. <A HREF= "script\logoorb.html"> 
+          <u>DOWNLOAD </u> </A><u><br> </u><font size="2"> <br> 
+
+          </font> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>  Mouse Comet      </FONT>   
+          <font size="2">A comet runs around the mouse cursor  <A HREF= "script\mouseco.html"> 
+          <u>DOWNLOAD </u> </A><u><br> </u> <br> 
+
+          </font> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>     Mouse Star </FONT>  
+          <font size="2">-Star effect for the mouse cursor. <A HREF= "script\mousest.html"> 
+          <u>DOWNLOAD </u> </A><u><br> </u> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>   Sparkle Trail of Mouse     </FONT>  
+          <font size="2">-Star effect for the mouse cursor.</font><A HREF= "script\sparkle.html"><font size="2">
+          <u>DOWNLOAD</u></font><u> </u> </A><u><br> </u> <br> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 5>Text Trailer     </FONT>  - A text trailer for the mouse cursor.           <A HREF= "script\texttrail.html"> 
+          <u>DOWNLOAD </u> </A><u><br> </u><font size="2"> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> Tricolor Rounding      </FONT>      
+          <font size="2">A cool 3 lines of color around your mouse cursor.  <A HREF= "script\trio2.html"> 
+          <u>DOWNLOAD </u> </A><u><br> </u> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>     Background Fireworks       </FONT>             
+          <font size="2">Firework effect for the background.<u> </u>  <A HREF= "script\firework.html"> 
+          <u>DOWNLOAD </u> </A><u><br> </u> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>     Snow Fall          </FONT>  
+          <font size="2">Snow falling effect for the background.   <A HREF= "script\snow.html"> DOWNLOAD </A><br> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>    Alarm Clock    </FONT>  
+          <font size="2">A cool alarm clock in javascript.   <A HREF= "script\alarmclock.html"> DOWNLOAD </A><br> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>      Count Down     </FONT>            
+          <font size="2">Count down to a specific day.<A HREF= "script\countdown.html"> DOWNLOAD </A><br> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	Current Date 1	 </FONT>
+          <font size="2">Display Current Date <A HREF= "script\currentdate1.html"> DOWNLOAD </A><br> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2>Current Date 2</FONT><font size="2"> Display Current Date <A HREF= "script\currentdate2.html"> DOWNLOAD </A><br> <br> 
+
+          </font> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	Date Time	 </FONT> 	
+          <font size="2">Display the current date and time		<A HREF= "script\datetime.html"> DOWNLOAD </A><br> <br> 
+
+          </font> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	Date Time Alert	 </FONT> 			
+          <font size="2">Display the current date and time on a click of the button.<A HREF= "script\datetimealert.html"> DOWNLOAD </A><br> <br> 
+
+          </font> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	GMT Clock </FONT> 
+          <font size="2">A simple GMT clock in a text box.<A HREF= "script\gmtclock.html"> DOWNLOAD </A><br> <br> 
+
+          </font> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	A simple clock .	 </FONT> 			
+          <font size="2">A simple clock in a text box.<A HREF= "script\simpleclock.html"> DOWNLOAD </A><br> <br> 
+
+          </font> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	Title bar's Date Time	 </FONT> 			
+          <font size="2">Display the current date and time in the title bar</font><A HREF= "script\titledatetime.html"><font size="2"> DOWNLOAD
+          </font> </A><br> <br> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA> 	WORLD TIME	 </FONT> 		Display the current date and time in the title bar<A HREF= "script\worldtime.html"> DOWNLOAD </A><br> <br> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> Email Stalker</FONT><font size="2"> 			An email link that follow your mouse cursor.<A HREF= "script\emailstalker.html"> DOWNLOAD </A><br> <br> 
+
+          </font> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	Link Stalker	 </FONT> 			
+          <font size="2">A link that follow your mouse cursor.<A HREF= "script\linkstalker.html"> DOWNLOAD </A><br> <br> 
+
+          </font> 
+
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	No Click Link	 </FONT> 			
+          <font size="2">Just move your mouse over the link. You dont have to click it.<A HREF= "script\noclicklink.html"> DOWNLOAD </A><br> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	Print Button	 </FONT> 			 
+          <font size="2">Make a button that print the page when you click.<A HREF= "script\printbutton.html"> DOWNLOAD </A><br> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	Reload Link	 </FONT> 			 
+          <font size="2">The page will reload when you click on the link.<A HREF= "script\reload.html"> DOWNLOAD </A><br> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 	Button Popup Menu	 </FONT> 			 
+          <font size="2">A nice menu pop up on a click of an button.<A HREF= "script\buttonmenu.html"> DOWNLOAD </A><br> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 		List Box Menu </FONT> 		 
+          <font size="2">A list box menu.<A HREF= "script\unavail.html"> DOWNLOAD </A><br> <br> 
+          </font> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 2> 		Superscroller </FONT> 		  
+          <font size="2">Flashlike text animation.</font><A HREF= "script\superscroll.html"><font size="2"> DOWNLOAD
+          </font> </A><br> <br> 
+<FONT COLOR =#FF3300 FACE= ARIAL,HELVATICA SIZE = 4> 	Scrolling Text	 </FONT> 			 This script Scroll a message in the text box.<A HREF= "script\scrollingtext.html"> DOWNLOAD </A></FONT></p>
+          <p> 
+ <font face="arial">&nbsp;</font></p>
+                    <p align="center"><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"><a href="source.html"><font color="#00BFFF"><u>
+                    Source Code</u></font></a> </FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#FF0000 face="arial" 
+      style="FONT-SIZE: 13px"> </FONT>
+    <FONT face="arial" 
+      style="FONT-SIZE: 13px"><a href="stand.html"><font color="#00BFFF"><u>My 
+                    Projects</u></font></a></FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> </FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> <a href="gate.html"><font color="#00BFFF"><u>GATE</u></font></a> </FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> <a href="fun.html"><font color="#00BFFF"><u>FUN
+                    </u></font></a></FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> <font color="#00BFFF"><a href="tutors.html"><u>
+                    <font color="#33CCFF">Tutorials</font></u></a></font> </FONT>
+                    <FONT color=#00FF00 face="arial" 
+      style="FONT-SIZE: 13px">|</FONT><FONT color=#00bfff face="arial" 
+      style="FONT-SIZE: 13px"> <a href="games.html"><font color="#00BFFF"><u>
+                    Games</u></font></a></FONT></B><a href="tutor/html.html"><B><FONT 
+            face=arial style="FONT-SIZE: 13px" color="#6c7ceb"><CENTER>
+            <CENTER>
+            <CENTER>
+            <CENTER>
+            <p><BR></p>
+              </CENTER></CENTER></CENTER></FONT></B></CENTER></TD></TR></TBODY></TABLE>
+        </center>
+      </div>
+    </TD></TR></TBODY></TABLE>&nbsp;<p><br>
+</p>
+</CENTER>
+
+                </CENTER>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="2%" id="AutoNumber3" height="3737">
+  <tr>
+    <td width="100%" height="3737">&nbsp;</td>
+  </tr>
+</table>
+
+
+              <p>vin</p>
+
+
+              </BODY></HTML>

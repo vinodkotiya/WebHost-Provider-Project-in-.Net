@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.vb" Inherits="ekasmin4.Global" %>

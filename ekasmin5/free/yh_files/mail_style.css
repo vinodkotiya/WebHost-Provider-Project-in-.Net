@@ -1,0 +1,69 @@
+.bodygrey {
+	FONT-SIZE: 12px; COLOR: #1a1a1a; LINE-HEIGHT: 16px; FONT-FAMILY: arial, helvetica, verdana, san-serif
+}
+.bodyblue {
+	FONT-SIZE: 12px; COLOR: #010f4c; LINE-HEIGHT: 14px; FONT-FAMILY: arial, helvetica, verdana, san-serif
+}
+.bodynews {
+	FONT-SIZE: 12px; COLOR: #010f4c; LINE-HEIGHT: 16px; FONT-FAMILY: arial, helvetica, verdana, san-serif
+}
+.bodywhite {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: arial, helvetica, verdana, san-serif
+}
+.topbodywhite {
+	FONT-SIZE: 14px; COLOR: #ffffff; LINE-HEIGHT: 15px; FONT-FAMILY: arial, helvetica, verdana, san-serif
+}
+.headlinewhite {
+	FONT-SIZE: 21px; COLOR: #ffffff; LINE-HEIGHT: 24px; FONT-FAMILY: arial, helvetica, san-serif
+}
+.headlinegrey {
+	FONT-SIZE: 21px; COLOR: #1a1a1a; LINE-HEIGHT: 24px; FONT-FAMILY: arial, helvetica, san-serif
+}
+.headlineblue {
+	FONT-SIZE: 21px; COLOR: #01197d; LINE-HEIGHT: 24px; FONT-FAMILY: arial, helvetica, san-serif
+}
+.headlinepurple {
+	FONT-SIZE: 21px; COLOR: #7b0099; LINE-HEIGHT: 24px; FONT-FAMILY: arial, helvetica, san-serif
+}
+.subheadgrey {
+	FONT-SIZE: 17px; COLOR: #1a1a1a; LINE-HEIGHT: 23px; FONT-FAMILY: arial, helvetica, san-serif
+}
+.subheadpurple {
+	FONT-SIZE: 17px; COLOR: #7b0099; LINE-HEIGHT: 23px; FONT-FAMILY: arial, helvetica, san-serif
+}
+.subheadblue {
+	FONT-SIZE: 17px; COLOR: #125ccb; LINE-HEIGHT: 23px; FONT-FAMILY: arial, helvetica, san-serif
+}
+.subheadgreen {
+	FONT-SIZE: 17px; COLOR: #39801e; LINE-HEIGHT: 23px; FONT-FAMILY: arial, helvetica, san-serif
+}
+.labelgrey {
+	FONT-SIZE: 14px; COLOR: #1a1a1a; LINE-HEIGHT: 14px; FONT-FAMILY: arial, helvetica, san-serif
+}
+.buttonwhite {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: #ffffff; PADDING-BOTTOM: 4px; COLOR: #000000; LINE-HEIGHT: 15px; PADDING-TOP: 4px; FONT-FAMILY: arial, Trebuchet MS, verdana, helvetica, san-serif; TEXT-ALIGN: center
+}
+.buttonltblue {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 13px; BACKGROUND: #b6c7e5; PADDING-BOTTOM: 4px; COLOR: #000000; LINE-HEIGHT: 15px; PADDING-TOP: 4px; FONT-FAMILY: arial, Trebuchet MS, verdana, helvetica, san-serif; TEXT-ALIGN: center
+}
+.buttonpurple {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: #7444b5; PADDING-BOTTOM: 4px; COLOR: #ffffff; LINE-HEIGHT: 15px; PADDING-TOP: 4px; FONT-FAMILY: arial, Trebuchet MS, verdana, helvetica, san-serif; TEXT-ALIGN: center
+}
+.buttonblue {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: #3a40b4; PADDING-BOTTOM: 4px; COLOR: #ffffff; LINE-HEIGHT: 15px; PADDING-TOP: 4px; FONT-FAMILY: arial, Trebuchet MS, verdana, helvetica, san-serif; TEXT-ALIGN: center
+}
+.buttongreen {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: #66972f; PADDING-BOTTOM: 4px; COLOR: #ffffff; LINE-HEIGHT: 15px; PADDING-TOP: 4px; FONT-FAMILY: arial, Trebuchet MS, verdana, helvetica, san-serif; TEXT-ALIGN: center
+}
+.buttoninsetpurple {
+	BORDER-RIGHT: #b076fc 7px inset; PADDING-RIGHT: 4px; BORDER-TOP: #b076fc 7px inset; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: #ffffff; PADDING-BOTTOM: 4px; BORDER-LEFT: #b076fc 7px inset; COLOR: #000000; LINE-HEIGHT: 15px; PADDING-TOP: 4px; BORDER-BOTTOM: #b076fc 7px inset; FONT-FAMILY: arial, Trebuchet MS, verdana, helvetica, san-serif; TEXT-ALIGN: center
+}
+.sidebar {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: arial, helvetica, verdana, san-serif
+}
+.footnote {
+	FONT-SIZE: 10px; COLOR: #1a1a1a; LINE-HEIGHT: 14px; FONT-FAMILY: arial, helvetica, verdana, san-serif
+}
+.footer {
+	FONT-SIZE: 10px; COLOR: #6c6c6c; LINE-HEIGHT: 12px; FONT-FAMILY: arial, helvetica, verdana, san-serif
+}
